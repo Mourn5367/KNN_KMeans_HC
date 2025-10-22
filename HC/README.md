@@ -20,3 +20,8 @@
    run_hc_example()
    ```
 3. 덴드로그램 그래프가 화면에 출력되고, 이미지 파일로도 저장됩니다.
+
+
+## 플로우차트
+
+![플로우차트](https://github.com/Mourn5367/KNN_KMeans_HC/blob/main/HC/HC_flow.jpg?raw=true)
