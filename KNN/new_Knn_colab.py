@@ -1,13 +1,3 @@
-# =================================================================
-# K-Nearest Neighbors (KNN) for Google Colab
-#
-# 사용법:
-# 1. 이 파일의 모든 코드를 코랩의 한 셀에 복사하여 붙여넣고 실행합니다.
-# 2. 그 다음 셀에서, 아래 예제 함수 중 하나를 호출하여 실행합니다.
-#    - run_knn_predefined_example(): 미리 정의된 데이터로 바로 실행
-#    - run_knn_interactive_example(): 터미널에서 직접 데이터를 입력하며 실행
-# =================================================================
-
 import math
 from collections import Counter
 import matplotlib.pyplot as plt
