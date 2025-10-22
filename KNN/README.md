@@ -179,28 +179,9 @@ pip install matplotlib
 - 시각화는 2차원만 지원하므로, 다차원 데이터는 2개 피쳐만 선택해야 합니다
 - 레이블은 문자열 또는 숫자 모두 가능합니다
 
----
-
-## 코드 실행 흐름 요약
-
-```
-[시작]
-   ↓
-[get_data_from_terminal()] → K값, 새 데이터, 학습 데이터 입력
-   ↓
-[get_visualization_columns()] → 시각화 축 선택
-   ↓
-[KnnClass 인스턴스 생성]
-   ↓
-[init_data()] 호출
-   ├─ [cal_dist()] → 거리 계산 및 정렬
-   ├─ [determine_knn()] → K개 이웃 선택 → 다수결 투표
-   ├─ 예측 결과 출력
-   └─ [visualize_knn()] → 그래프 시각화
-   ↓
-[종료]
-```
+--
 
 ## 플로우 차트
+![플로우차트](https://github.com/Mourn5367/KNN_KMeans_HC/blob/main/KNN/KNN_flow.jpg?raw=true)
 
 
